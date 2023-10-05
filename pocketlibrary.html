@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">Marina Inglin</span>
+								</a>
+
+						</div>
+					</header>
+
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Pocket Library</h1>
+
+							<p>UCD, Responsive Design, Material 3</p>
+
+							<h2>Background</h2>
+							<p>During my studies, I worked in a library. This is how I first came into contact with library apps. The apps I am referring to give library customers access to various eBooks, eAudiobooks, ePapers and sometimes videos. Using these apps, you can borrow and consume the media on your personal device for free for a certain period. Excited about the possibility, I recommended these apps to my family and friends, and many also started using them.</p>
+							<p>Although I have been using <a href="https://play.google.com/store/apps/details?id=de.etecture.ekz.onleihe&hl=de_CH&gl=US" target="_blank">Onleihe</a> and <a href="https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.libby&hl=de_CH&gl=US" target="_blank">Libby</a> regularly for five years, I still find it challenging to navigate around the app. Family members, acquaintances and library customers frequently sought my support since they could not cope with the complicated and unintuitive navigation. In the Google Play Store, the Libby app is frequently criticised for its usability, despite a relatively high overall rating. The following chart presents some selected ratings:</p>
+							<span class="image main"><img src="images/pocketlibrary/reviews.png" alt="Reviews" /></span>
+							<p>For this reason, I chose the topic of library apps as my personal UX exercise project.</p>
+							<i>Disclaimer: I am not affiliated with any library or library app.</i>
+							<hr class="major" />
+
+							<h2>My personal goals</h2>
+							<p>For this project, I have set myself the following goals:</p>
+							<ul>
+								<li>Design a new library app that provides a better user experience. I will focus on media management and remove eReaders and audio players from the scope.</li>
+								<li>To take on the different roles in designing a product and improve my UX research and design skills.</li>
+								<li>Learn and exercise the use of the Material 3 design system</li>
+								<li>Practise designing responsive applications (mobile/tablet)</li>
+							</ul>
+							
+
+							<hr class="major" />
+
+							<h2>Analysis of the apps Libby and Onleihe</h2>
+							<p>In preparation for the user interviews, I examined the two apps, Libby and Onleihe. Since navigation was often criticised, I focused on the information architecture. This also helped me to get an overview of the contents of the apps.</p>
+							<p>Libby has a navbar with five menu items. On the respective page, further sub-pages can be accessed via chips.</p>
+							<span class="image main"><img src="images/pocketlibrary/informationsarchitektur_libby.png" alt="Informationsarchitektur Libby" /></span>
+							<p>Onleihe has a navigation drawer with two levels. Specific subpages then have tabs.</p>
+							<span class="image main"><img src="images/pocketlibrary/informationsarchitektur_onleihe.png" alt="Informationsarchitektur Onleihe" /></span>
+							
+							<hr class="major" />
+
+							<h2>Understanding the users</h2>
+							<p>My findings from the analysis of the two apps informed the preparation of the user interviews. I interviewed four people who use at least one of the two library apps. Some of the posed questions were:</p>
+							<ul>
+								<li>Why do you use library apps?</li>
+								<li>On which devices do you use the apps?</li>
+								<li>How do you search for an item?</li>
+								<li>How do you select an item?</li>
+								<li>What are your favourite features?</li>
+								<li>What features do you miss?</li>
+								<li>What bothers you about the app?</li>
+							</ul>
+
+							<p>I used an affinity map to analyse the results from the interviews. </p>
+							<span class="image main"><img src="images/pocketlibrary/affinitymapping.png" alt="Affinity Mapping" /></span>
+
+							<p>The interviews confirmed my personal perception of the apps. These are the main problems from the interviews:</p>
+							<ul>
+								<li>Overcrowded pages and a complicated and unclear information architecture make it difficult for users to navigate through the app and thus to easily access the media on offer. This is problematic because searching, selecting and borrowing media are the app's core functions, and direct and easy access must be ensured. </li>
+								<li>Users miss functions such as the historization of used media or the submission of book requests (available in Libby, not Onleihe).</li>
+							</ul>
+
+							<hr class="major" />
+
+							<h2>Who is the typical user?</h2>
+							<p>To illustrate the goals and needs of the target group, I created the following persona based on the people interviewed.</p>
+							<span class="image main"><img src="images/pocketlibrary/persona.png" alt="Persona" /></span>
+
+							<hr class="major" />
+
+							<h2>Derive user requirements</h2>
+							<p>Because information overload is a problem in the apps I studied, I tried to reduce the complexity and limit myself to the important content. I formulated the requirements for the future app based on user research.</p>
+							<span class="image main"><img src="images/pocketlibrary/anforderungen.JPG" alt="User Requirements" /></span>
+
+							
+							<hr class="major" />
+
+							<h2>Developing the information architecture</h2>
+							<p>Once the requirements had defined the scope of the future app, the next step was to create an information architecture. Since the information architecture of the examined apps is too complicated, I carried out an open card sorting with three users to improve it for the new app. This resulted in the following information architecture:</p>
+							<span class="image main"><img src="images/pocketlibrary/informationsarchitektur_neu.png" alt="Informationsarchitektur" /></span>
+							
+							<hr class="major" />
+
+							<h2>Layout and user guidance</h2>
+							<p>For the new design, I investigated Libby, Onleihe, and other media apps to find out which layouts work best on which device. Then I examined different layouts for the mobile phone and tablet on paper.</p>
+							<p>After deciding on layouts, I focused on the user experience. I created wireframes to visualise the concept.</p>
+							<span class="image main"><img src="images/pocketlibrary/Wireframes.png" alt="Wireframes" /></span>
+			
+							<hr class="major" />
+
+
+							<h2>The new design</h2>
+							<p>One of my personal project goals was to learn the Material 3 design system. That is why I designed the app based on <a href="https://m3.material.io/" target="_blank">Material Design 3</a>. I got the <a href="https://www.figma.com/community/file/1035203688168086460" target="_blank">Material Design 3 Kit</a> from Material Design for Figma and used the <a href="https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder" target="_blank">Material Theme Builder</a> to create the theme. I chose a beige colour scheme because I associate it with parchment and books.</p>
+							<span class="image main"><img src="images/pocketlibrary/colorscheme.png" alt="Color Guidance" /></span>
+							<p>In order to realise my design ideas, I adapted certain components or added additional variants. The following picture shows a section of my custom components, which are all based on material components as far as possible.</p>
+							<span class="image main"><img src="images/pocketlibrary/customcomponents.png" alt="Custom Components" /></span>
+
+							<hr class="major" />
+
+							<h2>The Pocket Library app</h2>
+							<p>Based on the information architecture created, the app has a navigation bar through which the four main content areas are directly accessible.</p>
+							<p>The shelf area (Regal) contains a sub-navigation directly below the header. This subdivides the Shelf area into Lending, Reservation and Favourites. Each page includes a list of the associated media. The individual items contain a brief overview of the medium. Favourites can also be recognised because they are marked with a star. Loans can be downloaded via an icon button for offline availability. The icon button "More" opens the menu with further actions that can be performed on a medium. Clicking on the item opens a detailed page with information on the content of the medium. Under the tab "More Info", all further metadata on the medium and the licences are listed.</p>
+							<span class="image main"><img src="images/pocketlibrary/regal.png" alt="Seite Regal" /></span>
+							<p>The Library section (Bibliothek) has a search function, which is opened via the "Search" icon button, and a filter function. Popular filters such as "New", "Popular" and "Available" are suggested and activated with one click. Other filters can be opened by clicking on the "Filter" icon button. The entry page consists of carousels sorted by genre. If the user filters or searches, he always ends up with a list view.</p>
+							<span class="image main"><img src="images/pocketlibrary/bibliothek.png" alt="Seite Bibliothek" /></span>
+
+							<p>The History section (Historie) is divided into the Timeline and Statistics page with a sub-navigation. Under the timeline, all media that the user has borrowed are listed in descending order by month. The statistics area shows the user's media consumption. The Material Design <a href="https://www.figma.com/file/MvtkfC7oQCt5Ag4n4aNL1z/Material-Design-Data-Visualizations-(Community)?type=design&node-id=164-5430&mode=design&t=J9GkKIyxH1Jgpyb2-0" target="_blank">Data Visualisation Kit</a> was used for the design.</p>
+							<p>The Account section (Konto) contains an overview page where libraries can be managed. Under Settings, language and default settings etc., can be managed. The Info page has space to list the imprint, data protection, terms of use and licences.</p>
+							<span class="image main"><img src="images/pocketlibrary/historiekonto.png" alt="Seiten Historie und Konto" /></span>	
+							
+							<p>The finished prototype can be seen here:</p>
+							<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUQywH6iA4tSGV96QGcXgta%2FMeine-Projekte%3Ftype%3Ddesign%26node-id%3D1311-41952%26t%3DwIbXFHI0XHMJDudM-1%26scaling%3Dscale-down%26page-id%3D1212%253A6376%26starting-point-node-id%3D1311%253A41952%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>
+							
+							<hr class="major" />									
+
+							<h2>User evaluation</h2>
+							<p>To evaluate the designed app, I tested the prototype with the five users I interviewed at the beginning of the project. For this purpose, I conducted a moderated usability test. The prototype above was adapted for the test tasks.</p>
+							<p>The first impression of the app was positive. The test persons said it was "clean", "clear", "structured", "clear" and "simple". The test subjects were asked to solve the following five tasks:</p>
+							<ul>
+								<li>Find and borrow the book "Eragon - Das Erbe der Macht".</li>
+								<li>Add a crime novel to the favourites.</li>
+								<li>Delete a reservation.</li>
+								<li>Answer which books were borrowed in September.</li>
+								<li>Unsubscribe from the sample university library account.</li>
+							</ul>
+							<p>All five test subjects could complete the five tasks independently and said they found the service user-friendly.</p>
+
+							<hr class="major" />
+
+							<h2>Reflections on my work here</h2>
+							<p>In conclusion, I have achieved the four goals I set initially. The evaluation with the users confirmed that I could improve the user experience by creating a clear structure and simple user guidance. </p>
+							<p>I practised UX methods during the project and improved my design skills using Material Design 3 as a new design system. By designing the prototype for mobile and tablet, I dabbled in responsive design. </p>
+							<p></p>My most significant learning was that spending enough time creating a well-thought-out information architecture and user guidance contributes significantly to ease of use. I had difficulties with picking meaning full names for areas and pages, and I still see the potential for improvement there.</p>
+							
+
+
+
+
+							<ul class="actions">
+								<li><a href="index.html" class="button">Return</a></li>
+							</ul>
+
+						</div>
+					</div>
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/marina-i-336808206/" class="icon brands style2 fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://www.instagram.com/inmare.art/" class="icon brands style2 fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
